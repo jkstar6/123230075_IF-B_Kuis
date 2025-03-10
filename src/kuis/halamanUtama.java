@@ -86,7 +86,6 @@ public class halamanUtama extends JFrame{
 
         buttonLogout.setBounds(40, 260, 350, 28);
         buttonLogout.addActionListener(e -> {
-            new halamanLogin();
             dispose();
         });
 
