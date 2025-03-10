@@ -66,7 +66,6 @@ public class halamanLogin extends JFrame implements ActionListener{
             String password = passwordTextField.getText();
 
             if (username.equals("Bintang") && password.equals("123230075")) {
-                System.out.println("sukses");
                 new halamanUtama(username);
 
                 this.dispose();
